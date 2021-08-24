@@ -10,25 +10,28 @@
 </head>
 
 <body>
-  <h1>Lucky Birthday Vanilla!</h1>
-  <div>
-    <section>
-      <form>
-        <label class="birthday-lbl">
-          Enter Your Birthday:
-          <input type="date" id="birthday">
-        </label>
-        <label class="lucky-lbl">
-          Enter Your Lucky Number:
-          <input type="number" id="lucky">
-        </label>
-        <button type="submit" id="calculate">Click me!</button>
-      </form>
-      <div class="">
-
-      </div>
+  <section class="app">
+    <section class="banner-section">
+      <h1>Lucky Birthday Vanilla!</h1>
     </section>
-  </div>
+    <form class="vanilla-form">
+      <label class="birthday-lbl">
+        Enter Your Birthday:
+        <input type="date" id="birthday">
+      </label>
+      <label class="lucky-lbl">
+        Enter Your Lucky Number:
+        <input type="number" id="lucky">
+      </label>
+      <div class="buttons">
+        <input type="button" id="calculate" value="Click me!">
+        <input type="reset" id="reset" value="Reset">
+      </div>
+    </form>
+    <div class="message hidden">
+
+    </div>
+  </section>
   <script src="./js/index.js"></script>
 </body>
 

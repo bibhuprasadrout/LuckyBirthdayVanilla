@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  color: #00000077
+}
+
+input[type='button'],
+input[type='reset'] {
+  padding: 7px 17px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(27px);
+  font-weight: 700;
+  font-size: 11px;
+}
+body {
+  background-color: rgba(0, 153, 255, 0.418);
+  background-image: url('../media/images/lidya-nada-MD_ha01Bk7c-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.app {
+  width: auto;
+  max-width: 300px;
+  height: 377px;
+  margin: auto;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(27px);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3vh;
+}
+
+.app .banner-section {
+  background-color: rgba(53, 90, 209, 0.333);
+  border: 3px solid rgba(255, 255, 255, 0.17);
+  border-radius: 7px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 11px 21px;
+  font-size: 21px;
+  box-shadow: 0 8px 32px 0 rgba(31, 135, 83, 0.237);
+  width: 100%;
+}
+
+.app .vanilla-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 11px;
+  padding: 11px 21px;
+}
+
+.app .vanilla-form input {
+  outline: none;
+  border: 3px solid #ffffff77;
+  background-color: #ffffff77;
+  margin: 3px 0 0 0;
+  padding: 0 0 0 7px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.app .vanilla-form .buttons #calculate {
+  width: auto;
+  padding: 7px 17px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(27px);
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.app .vanilla-form .buttons #reset {
+  width: auto;
+  padding: 7px 17px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(27px);
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.app .message {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
